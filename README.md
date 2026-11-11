@@ -1,38 +1,37 @@
 # ☕ Welcome to My Cafe Store App!
 
-<div align="center">
-  <h3>Hello and welcome to my profile and project repository! 👋✨</h3>
-  <p>Explore a fully-featured, Java-based application crafted to streamline cafe management operations.</p>
-</div>
+Hello and welcome to my profile and project repository! 👋 
+
+This repository contains a Java-based application designed to manage a cafe store system, handling items, orders, customers, and beverages.
 
 ---
 
-## 📂 Project Structure & Core Classes
+## 📂 Project Structure & Classes
 
-Here is an overview of the Java classes powering this application:
+Here is an overview of the core Java classes included in this project:
 
-* **`CafeApp.java`**: The main entry point and primary controller running the cafe application flow.
-* **`Order.java`**: Handles customer orders, computes billing totals, and tracks ordered items.
-* **`Customer.java`**: Manages customer details and associates profiles with their respective orders.
-* **`MenuItem.java`**: The foundational interface/class representing available items.
-* **`Beverage.java`**: Subclass tailored for drinks like coffee and tea.
+* **`CafeApp.java`**: The main entry point and controller for running the cafe application.
+* **`Order.java`**: Manages customer orders, calculating totals and tracking ordered items.
+* **`Customer.java`**: Handles customer details and associations with their orders.
+* **`MenuItem.java`**: The base class or interface representing items available in the cafe.
+* **`Beverage.java`**: Subclass representing drinks (e.g., coffee, tea).
 * **`Meal.java`**: Subclass representing food items and meals.
-* **`Pastry.java`**: Subclass representing freshly baked goods.
+* **`Pastry.java`**: Subclass representing baked goods and pastries.
 
 ---
 
 ## 📸 App Previews
 
-<div align="center">
-  <p><b>Main Dashboard Interface</b></p>
-  <img src="Screenshot%202026-11-10%213904.png" width="700" alt="Main Interface" />
-  
-  <p><b>Order Management System</b></p>
-  <img src="Screenshot%202026-11-10%213921.png" width="700" alt="Order Management" />
+Here is a quick look at the application in action:
 
-  <p><b>Menu & Item Details</b></p>
-  <img src="Screenshot%202026-11-10%213951.png" width="700" alt="Menu Details" />
-</div>
+* **Main Interface:**  
+  ![Screenshot 1](Screenshot%202026-11-10%213904.png)
+
+* **Order Management:**  
+  ![Screenshot 2](Screenshot%202026-11-10%213921.png)
+
+* **Menu & Details:**  
+  ![Screenshot 3](Screenshot%202026-11-10%213951.png)
 
 ---
 
