@@ -1,29 +1,42 @@
-// CafeApp.java
-import java.util.Scanner;
+# ☕ Welcome to My Cafe Store App!
 
-public class CafeApp {
-    public static void main(String[] args) {
-        System.out.println("=================================");
-        System.out.println("  WELCOME TO THE CAFÉ SYSTEM ☕  ");
-        System.out.println("=================================");
-        
-        Scanner scanner = new Scanner(System.in);
-        Customer customer = new Customer("John Doe", "john.doe@example.com");
-        Order order = new Order(customer);
+Hello and welcome to my profile and project repository! 👋 
 
-        // Example menu items
-        Beverage coffee = new Beverage("Cappuccino", 4.50, "Medium", true);
-        Pastry croissant = new Pastry("Butter Croissant", 3.00, false);
-        Meal sandwich = new Meal("Club Sandwich", 7.50, true);
+This repository contains a Java-based application designed to manage a cafe store system, handling items, orders, customers, and beverages.
 
-        // Add items to order
-        order.addItem(coffee);
-        order.addItem(croissant);
-        order.addItem(sandwich);
+---
 
-        // Display Order Summary
-        order.printOrderSummary();
-        
-        scanner.close();
-    }
-}
+## 📂 Project Structure & Classes
+
+Here is an overview of the core Java classes included in this project:
+
+* **`CafeApp.java`**: The main entry point and controller for running the cafe application.
+* **`Order.java`**: Manages customer orders, calculating totals and tracking ordered items.
+* **`Customer.java`**: Handles customer details and associations with their orders.
+* **`MenuItem.java`**: The base class or interface representing items available in the cafe.
+* **`Beverage.java`**: Subclass representing drinks (e.g., coffee, tea).
+* **`Meal.java`**: Subclass representing food items and meals.
+* **`Pastry.java`**: Subclass representing baked goods and pastries.
+
+---
+
+## 📸 App Previews
+
+Here is a quick look at the application in action:
+
+* **Main Interface:**  
+  ![Screenshot 1](Screenshot%202026-11-10%213904.png)
+
+* **Order Management:**  
+  ![Screenshot 2](Screenshot%202026-11-10%213921.png)
+
+* **Menu & Details:**  
+  ![Screenshot 3](Screenshot%202026-11-10%213951.png)
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/antigamer2255-cmd/cafeapp.git](https://github.com/antigamer2255-cmd/cafeapp.git)
